@@ -1,0 +1,8 @@
+Encoders	KEYWORD1
+init	KEYWORD2
+getCountsLeft	KEYWORD2
+getCountsRight	KEYWORD2
+getCountsAndResetLeft	KEYWORD2
+getCountsAndResetRight	KEYWORD2
+checkErrorLeft	KEYWORD2
+checkErrorRight	KEYWORD2
