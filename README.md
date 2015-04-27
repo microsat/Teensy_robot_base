@@ -1,3 +1,6 @@
 # Teensy_robot_base
-teensy robot base controller development for Programming Robots Study Group
-just the read me
+Programming Robots Study Group
+
+This is were i be putting my code for teensy robot base controller
+
+
