@@ -41,6 +41,34 @@ DaulHBridge::DaulHBridge()
 	
 	
 }
+void DaulHBridge::init()
+{
+	  pinMode(_pin,OUTPUT);
+	
+	 _pwmL=SPEEDPIN1;
+	 pinMode(_pwmL,OUTPUT);
+	 _fwdL=MOTOR1APIN;
+	 pinMode(_fwdL,OUTPUT);
+	 _revL=MOTOR2APIN;
+	 pinMode(_revL,OUTPUT);
+	 
+	 _pwmR=SPEEDPIN2;
+	 pinMode(_pwmR,OUTPUT);
+	 _fwdR=MOTOR3APIN;
+	 pinMode(_fwdR,OUTPUT);
+	 _revR=MOTOR4APIN;
+
+	pinMode(_revR,OUTPUT);
+	
+	digitalWrite(_pwmL, LOW);
+	digitalWrite(_fwdL, LOW);
+	digitalWrite(_revL, LOW);
+	
+	digitalWrite(_pwmR, LOW);
+	digitalWrite(_fwdR, LOW);
+	digitalWrite(_revR, LOW);
+
+}
 void DaulHBridge::on()
 {
 	digitalWrite(_pin, HIGH);

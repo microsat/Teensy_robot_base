@@ -6,6 +6,7 @@ class DaulHBridge {
     public:
 	DaulHBridge();
 	void on();
+	void init();
 	void off();
 	
 	/** \brief Sets the speed for the left motor.
