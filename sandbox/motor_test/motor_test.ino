@@ -39,8 +39,8 @@ void loop() {
     }
   }
 // we just hard coding setpoint for now.....  
-    leftPID.TargetTicksPerFrame = 50.0;
-    rightPID.TargetTicksPerFrame = 50.0;
+    leftPID.TargetTicksPerFrame = 5.0;
+    rightPID.TargetTicksPerFrame = 5.0;
 
 	// testing out diff_controller pid stuff
 

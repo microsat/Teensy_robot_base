@@ -228,6 +228,11 @@ int runCommand() {
     else moving = 1;
     leftPID.TargetTicksPerFrame = arg1;
     rightPID.TargetTicksPerFrame = arg2;
+    
+//    Serial.print(leftPID.TargetTicksPerFrame);
+//    Serial.print(" ");
+//    Serial.println(rightPID.TargetTicksPerFrame);
+
     Serial.println("OK"); 
     break;
   case UPDATE_PID:
